@@ -9,7 +9,7 @@
 * Implement an API server for a storefront, using json-server
   * Create a sub-folder called `data` with a `db.json` file
   * Start your json-server from within this folder
-  * Data models:
+  * Data models should contain the following fields:
     * `categories`
       * `_id`, `name`, `display_name`, `description`
     * `products`
@@ -17,16 +17,24 @@
 
 * Implement a Web Server with express and ejs
   * Static routes and assets served from the public folder
-  * 2 dynamic routes:
+  * Use 'ejs' as your 'view engine'
+  * Implement a `site.ejs` master template that pulls in a partial into the `<main></main>` element based on the 'page' being served
+  * Declare 3 get routes:
+  * /
+    * Home Page
+    * Use `pages/index.ejs`
   * /categories
     * Lists each categories and draws a link to a detail page (/category/:name)
+    * Use `pages/categories.ejs`
   * /category/:name
     * Lists the products in the category
+    * Use `pages/products.ejs`
 
-* Implement a next.js based REST client (RESTy)
-  * Perform a GET request to a typed in URL and spit out the output separately:
-    * Headers
-    * Body
+* Install and fire up RESTy
+  * For this lab task, lets just get our REST client up and running
+  * Download it from the class repo
+  * Install it using `npm install`
+  * Start it using `npm run dev`
 
 
 ###### Testing
