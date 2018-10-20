@@ -1,26 +1,30 @@
 {
-  "teams": [
-    {
-      "name": "Astros",
-      "city": "Houston",
-      "_id": 2
-    },
-    {
-      "name": "Mariners",
-      "city": "Sodo",
-      "_id": 3
-    },
-    {
-      "name": "Phillies",
-      "city": "Philly",
-      "_id": 4
-    }
-  ],
-  "players": [
+  "categories": [
     {
       "_id": 1,
-      "name": "Zach",
-      "position": "Catcher"
+      "name": "Astros",
+      "display_name": "Houston",
+      "description": "xxx"
+    },
+    {
+      "_id": 2,
+      "name": "Astros2",
+      "display_name": "Houston",
+      "description": "xxx"
+    },
+    {
+      "_id": 3,
+      "name": "Astros3",
+      "display_name": "Houston",
+      "description": "xxx"
+    }
+  ],
+  "products": [
+    {
+      "_id": 1,
+      "category": "xxx",
+      "display_name": "Zach",
+      "description": "Catcher"
     }
   ]
 }
