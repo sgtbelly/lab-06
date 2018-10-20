@@ -2,29 +2,44 @@
   "categories": [
     {
       "_id": 1,
-      "name": "Astros",
-      "display_name": "Houston",
-      "description": "xxx"
+      "name": "Nissan",
+      "display_name": "Nissan",
+      "description": "Nissan of Japan"
     },
     {
       "_id": 2,
-      "name": "Astros2",
-      "display_name": "Houston",
-      "description": "xxx"
+      "name": "Toyota",
+      "display_name": "Toyota",
+      "description": "Toyota of Japan"
     },
     {
       "_id": 3,
-      "name": "Astros3",
-      "display_name": "Houston",
-      "description": "xxx"
+      "name": "Honda",
+      "display_name": "Honda",
+      "description": "Honda of Japan"
     }
   ],
   "products": [
     {
       "_id": 1,
-      "category": "xxx",
-      "display_name": "Zach",
-      "description": "Catcher"
+      "category": "Nissan",
+      "name": "GTR",
+      "display_name": "GTR",
+      "description": "Godzilla"
+    },
+    {
+      "_id": 2,
+      "category": "Toyota",
+      "name": "Supra",
+      "display_name": "Supra",
+      "description": "Like a damn space ship"
+    },
+    {
+      "_id": 3,
+      "category": "Honda",
+      "name": "NSX",
+      "display_name": "NSX",
+      "description": "Senna would be proud"
     }
   ]
 }
