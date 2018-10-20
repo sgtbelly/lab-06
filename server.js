@@ -17,6 +17,7 @@ app.use( express.static('./public') );
 app.get('/', homePage);
 app.get('/categories', catPage);
 app.get('/categories/:name', proPage);
+app.get('/categories/:discription', proPage);
 
 function homePage(request,response) {
   response.render('site', {page:'./pages/index', title:'Our Site: Home'});
