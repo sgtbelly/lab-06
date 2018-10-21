@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1540085499596" clover="3.2.0">
+  <project timestamp="1540085499597" name="All files">
+    <metrics statements="22" coveredstatements="12" conditionals="7" coveredconditionals="4" methods="9" coveredmethods="0" elements="38" coveredelements="16" complexity="0" loc="22" ncloc="22" packages="1" files="1" classes="1">
+      <file name="server.js" path="/Users/jamesdenton/codefellows/401/lab-06/www/lib/server.js">
+        <metrics statements="22" coveredstatements="12" conditionals="7" coveredconditionals="4" methods="9" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="56" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="57" count="0" type="stmt"/>
+      </file>
+    </metrics>
+  </project>
+</coverage>
