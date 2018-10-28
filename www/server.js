@@ -12,15 +12,14 @@ const API = process.env.API_URL || 'http://localhost:3000';
 app.set('view engine', 'ejs');
 
 // Set the public folder up for /...
-app.use( express.static('../public') );
+app.use( express.static('./public') );
 
 app.get('/', homePage);
 app.get('/categories', catPage);
 app.get('/categories/:name', proPage);
-app.get('/categories/:discription', proPage);
 
 function homePage(request,response) {
-  response.render('site', {page:'./pages/index', title:'Our Site: Home'});
+  response.render('./site.ejs', {page:'./pages/index', title:'Our Site: Home'});
 }
 
 function catPage(request,response) {

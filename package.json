@@ -2,9 +2,8 @@
   "name": "lab-06",
   "version": "1.0.0",
   "description": "![CF](http://i.imgur.com/7v5ASc8.png) LAB: HTTP and REST ========================================================",
-  "main": "www/lib/server.js",
+  "main": "../../toolkit/www/lib/server.js",
   "scripts": {
-    "lint": "eslint **/*.js",
     "test": "jest --coverage --verbose",
     "test-watch": "jest --watchAll --coverage --verbose",
     "start": "start"
@@ -21,11 +20,18 @@
   },
   "homepage": "https://github.com/sgtbelly/lab-06#readme",
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "ejs": "^2.6.1",
     "eslint": "^5.7.0",
     "express": "^4.16.4",
     "jest": "^23.6.0",
+    "json-server": "^0.14.0",
     "lint": "^1.1.2",
+    "next": "^7.0.2",
+    "node-sass": "^4.9.4",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-json-view": "^1.19.1",
     "resty": "0.0.3",
     "superagent": "^4.0.0-beta.5",
     "supertest": "^3.3.0"
