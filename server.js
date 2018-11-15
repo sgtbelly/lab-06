@@ -12,7 +12,7 @@ const API = process.env.API_URL || 'http://localhost:3000';
 app.set('view engine', 'ejs');
 
 // Set the public folder up for /...
-app.use( express.static('./public') );
+app.use(express.static('./public') );
 
 app.get('/', homePage);
 app.get('/categories', catPage);
@@ -25,24 +25,19 @@ function homePage(request,response) {
 function catPage(request,response) {
   superagent.get(`${API}/categories`)
     .then( data => {
-      response.render('site', {categories:data.body, page:'./pages/categories', title:'Our Site: Categories'});
+      response.render('site', {categories:data.body, page:'./pages/categories', title:'Site: Categories'});
 
     })
     .catch( error => console.error(error) );
-
 }
 
 function proPage(request, response) {
   superagent.get(`${API}/products?category=${request.params.name}`)
     .then( data => {
-      response.render('site', {products:data.body, page:'./pages/products', title:'Our Site: Products'});
+      response.render('site', {products:data.body, page:'./pages/products', title:'Site: Products'});
 
     })
     .catch( error => console.error(error) );
-
-
-
-
 }
 
 app.listen(PORT, () => console.log(`Server up on ${PORT}`) );

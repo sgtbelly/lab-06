@@ -1,6 +1,13 @@
-<h2>This is the teams list</h2>
-<ul>
-    <% teams.forEach( team => { %>
-        <li><%= team.city %> <%= team.name %></li>
-    <% }) %>
-</ul>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+  </head>
+  <body>
+    <header><h1>Store Page</h1></header>
+    <main><%- include(page) %>></main>
+    <footer>
+      &copy; 2018 401n7
+    </footer>
+  </body>
+</html>
